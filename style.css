@@ -1,0 +1,131 @@
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Form Styling */
+  form {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    width: 400px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Heading Styling */
+  h1 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Input Fields Styling */
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="password"] {
+    width: calc(50% - 15px);
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  input[type="text"]:hover,
+  input[type="tel"]:hover,
+  input[type="email"]:hover,
+  input[type="password"]:hover {
+    border-color: #007bff;
+    background-color: #f0f8ff;
+  }
+  
+  input[type="text"]:focus,
+  input[type="tel"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #ff7f50;
+    background-color: #fff7f3;
+  }
+  
+  /* File Input Styling */
+  input[type="file"] {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Image Styling */
+  img {
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    max-width: 100px;
+    max-height: 100px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Radio Buttons Styling */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  b {
+    margin-right: 20px;
+    color: #555;
+    font-weight: normal;
+  }
+  
+  /* Checkbox Styling */
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Button Styling */
+  input[type="button"] {
+    padding: 12px 25px;
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  input[type="button"]:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  input[type="button"]:active {
+    transform: translateY(0);
+    background: #004494;
+  }
+  
+  /* Terms and Conditions Text */
+  div {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
